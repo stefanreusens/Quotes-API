@@ -1,0 +1,131 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import url("https://use.typekit.net/oot8rwl.css");
+@import "https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:200,300,500|Source+Sans+Pro";
+
+button.active, button {
+    outline: none !important;
+    border: none !important;
+}
+
+input.active, input:focus, input {
+    outline: none !important;
+    border: none !important;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+html {
+    background: #F1F1F1;
+}
+
+body {
+    margin: 0 5rem;
+    height: 100vh;
+}
+
+.form {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #000E30;
+    font: 300 100%/1.6 Brandon Grotesque, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus {
+    color: #0000FF;
+    padding-left: 20px;
+}
+
+input:active, input:focus {
+    border: none !important;
+    outline: none !important;
+    margin: none;
+    padding: none;
+    color: #0000FF;
+}
+
+body {
+	margin: 2em;
+}
+
+input {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1em;
+  line-height: 1.45;
+  margin: 1em 0;
+  height: 30px;
+  width: 30%;
+  font-size: .8em;
+  font: 300 100%/1.6 Brandon Grotesque, Helvetica, sans-serif;
+  border: 0px solid red;
+  border-radius: 15px;
+  -webkit-transition: .18s ease-out;
+  -moz-transition: .18s ease-out;
+  -o-transition: .18s ease-out;
+  transition: .18s ease-out;
+}
+
+input:hover {
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+input:focus {
+  border: 1px solid #B8B6B6;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flex button {
+    font: 300 100%/1.6 Roboto, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #000E30;
+    background: #FFF;
+    border-radius: 5px;
+    transition: .1s ease-in-out;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#get-quote {
+    font: 300 100%/1.6 Roboto, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #000E30;
+    background: #FFF;
+    border-radius: 5px;
+    transition: .1s ease-in-out;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-transform: capitalize;
+}
+
+h2 {
+    color: #000E30;
+    font: 300 100%/1.6 Brandon Grotesque, Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-align: left;
+}
+
+p {
+    color: #000E30;
+    font: 300 100%/1.6 Brandon Grotesque, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-align: right;
+    margin-top: 2rem;
+    font-style: italic;
+}

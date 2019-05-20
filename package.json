@@ -1,0 +1,32 @@
+{
+  "name": "becode-quotes-api",
+  "version": "1.0.0",
+  "description": "`https://stefanreusens.github.io/becode-quotes-api/`",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanreusens/becode-quotes-api.git"
+  },
+  "author": "Stefan Reusens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanreusens/becode-quotes-api/issues"
+  },
+  "homepage": "https://github.com/stefanreusens/becode-quotes-api#readme"
+}
