@@ -1,6 +1,7 @@
 # Quotes-API
 
 ## Link
+
 I deployed the app on Heroku. You can [check it out here](https://becode-quotes-api-exercise.herokuapp.com/).
 
 ## About this project
