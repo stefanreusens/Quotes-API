@@ -98,6 +98,8 @@ const handleClickCreate = (e) => {
         fetch('/quotes/create', addQuote)
             .then(location.reload());
     }
+
+    window.location.reload(true); //Reload page to get fetch again for new quote
 }
 
 const createButton = document.querySelector('#create-button');
