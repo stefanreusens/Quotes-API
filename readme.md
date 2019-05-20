@@ -13,7 +13,7 @@ I used the following packages:
 - mongoose
   
 ## Link
-I also deployed in on Heroku. You can [check it out here](https://becode-quotes-api-exercise.herokuapp.com/).
+I deployed the app on Heroku. You can [check it out here](https://becode-quotes-api-exercise.herokuapp.com/).
 
 ## Install
     $ git clone https://github.com/stefanreusens/Quotes-API
